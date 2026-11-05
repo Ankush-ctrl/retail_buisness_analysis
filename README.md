@@ -8,8 +8,8 @@
              6. Power BI dashboard
              7. Business insights and recommendations
 
-what's going on 1-4 steps:
-# a. Loaded 6 CSV files and inspected their structure using info(), describe() and shape ~
+# what's going on 1-4 steps:
+a. Loaded 6 CSV files and inspected their structure using info(), describe() and shape ~
 | Dataset | Records | Columns |
 | :--- | :---: | :---: |
 | Customers | 15,266 | 10 |
@@ -19,13 +19,13 @@ what's going on 1-4 steps:
 | Exchange Rates | 11,215 | 3 |
 | Data Dictionary | 37 | 3 |
 
-# b. We found three issues:
+b. We found three issues:
 | Dataset | Column | Missing Records | Decision | Reason |
 | :--- | :--- | :---: | :--- | :--- |
 | **Customers** | State Code | 10 | Retain | No verified State Code mapping was available for Napoli. |
 | **Sales** | Delivery Date | 49,719 | Retain | Missing Delivery Dates occur in physical-store transactions, suggesting they may not apply. |
 | **Stores** | Square Meters | 1 | Retain | Missing Square Meters belongs to the online store. |
-# c. Reasons:
+c. Reasons:
     - No verified State Code mapping was available for Napoli.
     - Missing Delivery Dates occur in physical-store transactions, suggesting they may not apply.
     - Missing Square Meters belongs to the online store.
