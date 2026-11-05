@@ -27,6 +27,6 @@ b. We found three issues:
 | **Stores** | Square Meters | 1 | Retain | Missing Square Meters belongs to the online store. |
 
 c. Reasons:
-    - No verified State Code mapping was available for Napoli.
-    - Missing Delivery Dates occur in physical-store transactions, suggesting they may not apply.
-    - Missing Square Meters belongs to the online store.
+    1) No verified State Code mapping was available for Napoli.
+    2) Missing Delivery Dates occur in physical-store transactions, suggesting they may not apply.
+    3) Missing Square Meters belongs to the online store.
